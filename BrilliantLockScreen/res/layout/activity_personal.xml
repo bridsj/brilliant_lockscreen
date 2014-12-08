@@ -1,0 +1,155 @@
+<com.brilliant.lockscreen.parallax.ParallaxScrollView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:gpb="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:parallexOffset="0.3" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/personal_bg" />
+
+    <com.brilliant.lockscreen.parallax.ObservableScrollView
+        android:id="@+id/observable_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="5dp"
+        android:overScrollMode="never"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.brilliant.lockscreen.gooleprogressbar.GoogleProgressBar
+                android:id="@+id/google_progress"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                gpb:type="folding_circles" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="fghfghfghfghfghfhfghfghfghfghfghfhfghfghfghfghfghfhfghfghfghfghfghfhfghfghfghfghfghfhfghfghfghfghfghfhfghfghfghfghfghfhfghfghfghfghfghfh\n
+                \nfghfghfghfghfghfh\nfghfghfghfghfghfh\nfghfghfghfghfghfh\n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="67hfghfghfghfghfhfghfghfghfghfghfhfghfghfghfghfghfh\nfghfghfghfghfghfh\n
+                \nfghfghfghfghfghfh\nfghfghfghfghfghfh\nfghfghfghfghfghfh\n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="fghfghfghfghfghfhfghfghfghfghfghfhfghfghfghfghfghfh\nfghfghfghfghfghfh\n
+                \nfghfghfghfghfghfh\nfghfghfghfghfghfh\nfghfghfghfghfghfh\n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="fghfghfghfghfghfhfghfghfghfghfghfhfghfghfghfghfghfh\nfghfghfghfghfghfh\n
+                \nfghfghfghfghfghfh\nfghfghfghfghfghfh\nfghfghfghfghfghfh\n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="67hfghfghfghfghfhfghfghfghfghfghfhfghfghfghfghfghfh\nfghfghfghfghfghfh\n
+                \nfghfghfghfghfghfh\nfghfghfghfghfghfh\nfghfghfghfghfghfh\n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="fghfghfghfghfghfhfghfghfghfghfghfhfghfghfghfghfghfh\nfghfghfghfghfghfh\n
+                \nfghfghfghfghfghfh\nfghfghfghfghfghfh\nfghfghfghfghfghfh\n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="fghfghfghfghfghfhfghfghfghfghfghfhfghfghfghfghfghfh\nfghfghfghfghfghfh\n
+                \nfghfghfghfghfghfh\nfghfghfghfghfghfh\nfghfghfghfghfghfh\n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="67hfghfghfghfghfhfghfghfghfghfghfhfghfghfghfghfghfh\nfghfghfghfghfghfh\n
+                \nfghfghfghfghfghfh\nfghfghfghfghfghfh\nfghfghfghfghfghfh\n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="fghfghfghfghfghfhfghfghfghfghfghfhfghfghfghfghfghfh\nfghfghfghfghfghfh\n
+                \nfghfghfghfghfghfh\nfghfghfghfghfghfh\nfghfghfghfghfghfh\n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="fghfghfghfghfghfhfghfghfghfghfghfhfghfghfghfghfghfh\nfghfghfghfghfghfh\n
+                \nfghfghfghfghfghfh\nfghfghfghfghfghfh\nfghfghfghfghfghfh\n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="67hfghfghfghfghfhfghfghfghfghfghfhfghfghfghfghfghfh\nfghfghfghfghfghfh\n
+                \nfghfghfghfghfghfh\nfghfghfghfghfghfh\nfghfghfghfghfghfh\n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="fghfghfghfghfghfhfghfghfghfghfghfhfghfghfghfghfghfh\nfghfghfghfghfghfh\n
+                \nfghfghfghfghfghfh\nfghfghfghfghfghfh\nfghfghfghfghfghfh\n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="fghfghfghfghfghfhfghfghfghfghfghfhfghfghfghfghfghfh\nfghfghfghfghfghfh\n
+                \nfghfghfghfghfghfh\nfghfghfghfghfghfh\nfghfghfghfghfghfh\n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="67hfghfghfghfghfhfghfghfghfghfghfhfghfghfghfghfghfh\nfghfghfghfghfghfh\n
+                \nfghfghfghfghfghfh\nfghfghfghfghfghfh\nfghfghfghfghfghfh\n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="fghfghfghfghfghfhfghfghfghfghfghfhfghfghfghfghfghfh\nfghfghfghfghfghfh\n
+                \nfghfghfghfghfghfh\nfghfghfghfghfghfh\nfghfghfghfghfghfh\n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="fghfghfghfghfghfhfghfghfghfghfghfhfghfghfghfghfghfh\nfghfghfghfghfghfh\n
+                \nfghfghfghfghfghfh\nfghfghfghfghfghfh\nfghfghfghfghfghfh\n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="fghfghfghfghfghfhfghfghfghfghfghfhfghfghfghfghfghfh\nfghfghfghfghfghfh\n
+                \nfghfghfghfghfghfh\nfghfghfghfghfghfh\nfghfghfghfghfghfh\n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="fghfghfghfghfghfhfghfghfghfghfghfhfghfghfghfghfghfh\nfghfghfghfghfghfh\n
+                \nfghfghfghfghfghfh\nfghfghfghfghfghfh\nfghfghfghfghfghfh\n" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="fghfghfghfghfghfhfghfghfghfghfghfhfghfghfghfghfghfh\nfghfghfghfghfghfh\n
+                \nfghfghfghfghfghfh\nfghfghfghfghfghfh\nfghfghfghfghfghfh\n" />
+        </LinearLayout>
+    </com.brilliant.lockscreen.parallax.ObservableScrollView>
+
+</com.brilliant.lockscreen.parallax.ParallaxScrollView>
