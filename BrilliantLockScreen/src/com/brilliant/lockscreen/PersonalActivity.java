@@ -4,9 +4,9 @@ import android.graphics.Rect;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 
-import com.brilliant.lockscreen.gooleprogressbar.GoogleProgressBar;
-import com.brilliant.lockscreen.parallax.ObservableScrollView;
-import com.brilliant.lockscreen.parallax.ParallaxScrollView;
+import com.brilliant.lockscreen.ui.view.gooleprogressbar.GoogleProgressBar;
+import com.brilliant.lockscreen.ui.view.parallax.ObservableScrollView;
+import com.brilliant.lockscreen.ui.view.parallax.ParallaxScrollView;
 import com.brixd.android.utils.device.PhoneUtil;
 
 /**

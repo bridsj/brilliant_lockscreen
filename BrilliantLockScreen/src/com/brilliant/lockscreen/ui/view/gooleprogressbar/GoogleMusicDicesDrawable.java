@@ -1,4 +1,4 @@
-package com.brilliant.lockscreen.gooleprogressbar;
+package com.brilliant.lockscreen.ui.view.gooleprogressbar;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

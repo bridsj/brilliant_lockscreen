@@ -1,4 +1,4 @@
-package com.brilliant.lockscreen.parallax;
+package com.brilliant.lockscreen.ui.view.parallax;
 
 import android.content.Context;
 import android.graphics.Canvas;

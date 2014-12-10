@@ -1,4 +1,4 @@
-package com.brilliant.lockscreen.parallax;
+package com.brilliant.lockscreen.ui.view.parallax;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -10,7 +10,7 @@ import android.widget.FrameLayout;
 import android.widget.ScrollView;
 
 import com.brilliant.lockscreen.R;
-import com.brilliant.lockscreen.parallax.ObservableScrollView.ScrollCallbacks;
+import com.brilliant.lockscreen.ui.view.parallax.ObservableScrollView.ScrollCallbacks;
 
 /**
  * A custom ScrollView that can accept a scroll listener.
